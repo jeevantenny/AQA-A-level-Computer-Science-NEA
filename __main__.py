@@ -30,7 +30,7 @@ __xenorath = [
 if __name__ == "__main__":
     # Creates an instance of the main Game class and calls the start method which starts the game.
     # The game starts on the Title Screen
-    Game(LevelEditor, __arenis[0]).start()
+    Game(TitleScreen).start()
 
 
 #rxeudxgghdfvbnjuytfgbhytgfvbhjuygfghjhgfdcvbhjkgtfgtyuikjhgfvcvbhytyujnm,kjhgtyujnmnbvftyhnm,kjhgftyhbnjhgfyuhgvbjhgfvbhyhgvbhytgfcvbhytgfvbhjuyhgvbhgvbhjuyhgfvbhytgfvghygiugdingdnyidg9nudgu9ntdg9nutgxun9xfyu9nxgt9nutgxun9gtdnu9tgd9nugx9nufx9nugtf9nuxtgf9nuxtgn9utxgdnu9txnu94``
