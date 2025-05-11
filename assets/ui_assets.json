@@ -1,0 +1,76 @@
+{
+    "texture_map": {
+        "main": "ui.texture_map.json"
+    },
+    
+
+    "links": {
+        "ElementMatrix": {
+            "topleft_bracket": ["texture_map", "main", "topleft_bracket"],
+            "topright_bracket": ["texture_map", "main", "topright_bracket"],
+            "bottomleft_bracket": ["texture_map", "main", "bottomleft_bracket"],
+            "bottomright_bracket": ["texture_map", "main", "bottomright_bracket"]
+        },
+        "LongButton": {
+            "unclicked_texture": ["texture_map", "main", "button1_unclicked"],
+            "clicked_texture": ["texture_map", "main", "button1_clicked"]
+        },
+        "PopUpButton": {
+            "unclicked_texture": ["texture_map", "main", "button2_unclicked"],
+            "clicked_texture": ["texture_map", "main", "button2_clicked"]
+        },
+        "MissionLogIcon": {
+            "texture": ["texture_map", "main", "mission_log"]
+        },
+
+
+
+
+        "Slider": {
+            "loaded_texture": ["texture_map", "main", "loaded_bar"],
+            "unloaded_texture": ["texture_map", "main", "unloaded_bar"],
+            "knob_texture": ["texture_map", "main", "cursor_1"]
+        },
+        "Toggle": {
+            "toggle_on_texture": ["texture_map", "main", "loaded_bar"] ,
+            "toggle_off_texture": ["texture_map", "main", "unloaded_bar"],
+            "knob_texture": ["texture_map", "main", "cursor_2"]
+        },
+        "KeyBinder": {
+            "unclicked_texture": ["texture_map", "main", "key_binder_unclicked"],
+            "clicked_texture": ["texture_map", "main", "key_binder_clicked"]
+        },
+
+
+
+
+        "HealthBar": {
+            "base_texture": ["texture_map", "main", "healthbar_base"],
+            "bar_texture": ["texture_map", "main", "healthbar_bar"],
+            "heart_icon_texture": ["texture_map", "main", "healthbar_icon"]
+        },
+        "PowerTankIndicator": {
+            "tank_icon_texture": ["texture_map", "main", "tank_icon"]
+        },
+        "WeaponModeIndicator": {
+            "melee_on_texture": ["texture_map", "main", "melee_on"],
+            "melee_off_texture": ["texture_map", "main", "melee_off"],
+            "ranged_on_texture": ["texture_map", "main", "ranged_on"],
+            "ranged_off_texture": ["texture_map", "main", "ranged_off"]
+        },
+
+        "WeaponSelector": {
+            "square_texture": ["texture_map", "main", "weapon_selection_square"],
+            "column_texture": ["texture_map", "main", "weapon_selection_column"]
+        },
+        "PlanetInfoButton": {
+            "base_texture": ["texture_map", "main", "planet_info_base"],
+            "full_texture_map": ["texture_map", "main"]
+        },
+
+        "ShipPowerTankIndicator": {
+            "base_texture": ["texture_map", "main", "ship_tank_indicator_base"],
+            "icon_texture": ["texture_map", "main", "ship_tank_indicator_icon"]
+        }
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "spritesheet": "game_objects/tile_data/general_tiles.png",
+    "tile_size": 16,
+
+    "tiles": {
+        "1": {
+            "name": "full_tile_collision",
+            "type": "full",
+            "texture": [0, 0],
+            "texture_rotation": 0,
+            "properties": {
+                "collision": true,
+                "breakable": false,
+                "friction": 1,
+                "wall_jump": true,
+                "damage_sides": {}
+            }
+        },
+        "2": {
+            "name": "topleft_ramp_collision",
+            "type": "topleft_ramp",
+            "texture": [0, 0]
+        },
+        "3": {
+            "name": "topright_ramp_collision",
+            "type": "topright_ramp",
+            "texture": [0, 0]
+        },
+        "4": {
+            "name": "bottomleft_ramp_collision",
+            "type": "bottomleft_ramp",
+            "texture": [0, 0]
+        },
+        "5": {
+            "name": "bottomright_ramp_collision",
+            "type": "bottomright_ramp",
+            "texture": [0, 0]
+        },
+        "6": {
+            "name": "top_slab_collision",
+            "type": "top_slab",
+            "texture": [0, 0]
+        },
+        "7": {
+            "name": "bottom_slab_collision",
+            "type": "bottom_slab",
+            "texture": [0, 0]
+        },
+        "8": {
+            "name": "dark_tile",
+            "texture": [1, 0]
+        },
+        "9": {
+            "name": "light_tile",
+            "texture": [2, 0]
+        },
+        "$": {
+            "name": "white_pedestal_bottom",
+            "texture": [1, 1]
+        },
+        "&": {
+            "name": "white_pedestal_top",
+            "texture": [1, 1],
+            "texture_rotation": 2
+        },
+        "(": {
+            "name": "grey_pedestal_bottom",
+            "texture": [4, 0]
+        },
+        ")": {
+            "name": "grey_pedestal_top",
+            "texture": [4, 0],
+            "texture_rotation": 2
+        },
+        "*": {
+            "name": "crate",
+            "texture": [0, 2]
+        },
+        "^": {
+            "name": "chain",
+            "texture": [1, 2]
+        },
+        "%": {
+            "name": "chian_connection",
+            "texture": [2, 2]
+        }
+    }
+}

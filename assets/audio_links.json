@@ -1,0 +1,11 @@
+{
+    "music": {
+        "menu_theme": "nebula-nights-adi-goldstein-main-version.mp3"
+    },
+    "sound_fx": {
+        "menu_scroll": "menu_scroll.mp3",
+        "menu_pop_up": "menu_pop_up.mp3",
+        "button_click": "button_click.mp3",
+        "slider_scroll": "slider_scroll.mp3"
+    }
+}

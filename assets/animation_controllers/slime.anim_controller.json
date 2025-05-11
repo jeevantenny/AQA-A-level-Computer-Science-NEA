@@ -1,0 +1,25 @@
+{
+    "name": "slime_controller",
+    "starting_state": "idle",
+
+    "states": {
+        "idle": {
+            "animations": ["idle"],
+            "transitions": {
+                "jump_up": "not entity.tile_contacts['bottom']"
+            }
+        },
+        "jump_up": {
+            "animations": ["jump_up"],
+            "transitions": {
+                "land_jump": "entity.tile_contacts['bottom']"
+            }
+        },
+        "land_jump": {
+            "animations": ["land_jump"],
+            "transitions": {
+                "idle": "self.animations_complete"
+            }
+        }
+    }
+}

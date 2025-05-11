@@ -1,0 +1,8 @@
+{
+    "spritesheet": "test_textures/planets.png",
+
+
+    "mappings": {
+        "frame1": [281, 601, 238, 54]
+    }
+}

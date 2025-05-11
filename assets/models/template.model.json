@@ -1,0 +1,26 @@
+{
+    "name": "template_model",
+    "model_size": [50, 50],
+
+    "bones": {
+        "leg1": {
+            "position": [10, 30],
+            "texture": "leg1_texture",
+            "pivot": [0, -5],
+            "rotation": 0
+        },
+        "body": {
+            "position": [25, 30],
+            "texture": "main_texture",
+            "pivot": [0, 10],
+            "rotation": 0
+        },
+        "arm1": {
+            "parent": "body",
+            "position": [-4, -8],
+            "texture": "arm1_texture",
+            "pivot": [4, -2],
+            "rotation": 0
+        }
+    }
+}

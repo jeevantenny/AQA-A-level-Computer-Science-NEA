@@ -1,0 +1,39 @@
+{
+    "spritesheet": "game_objects/entities/items.png",
+    
+    "mappings": {
+        "DoubleJump": [1, 1, 16, 16],
+        "WallJump": [18, 1, 16, 16],
+        "GroundPound": [35, 1, 16, 16],
+        "SuperSpeed": [52, 1, 16, 16],
+
+        "PowerTank": [1, 18, 22, 14],
+
+        "FerroBlade": [69, 20, 20, 20],
+        "GravitonCleaver": [86, 1, 16, 16],
+        "Eclipser": [103, 1, 16, 16],
+        "IonBlaster": [120, 1, 16, 16],
+        "PlasmaCannon": [137, 1, 16, 16],
+
+        "HealthOrb": [24, 18, 9, 9],
+
+        "item_collect1": [1, 43, 16, 16],
+        "item_collect2": [18, 43, 16, 16],
+        "item_collect3": [35, 43, 16, 16],
+        "item_collect4": [52, 43, 16, 16],
+        "item_collect5": [69, 43, 16, 16],
+        "item_collect6": [86, 43, 16, 16],
+        "item_collect7": [103, 43, 16, 16],
+        "item_collect8": [120, 43, 16, 16],
+        "item_collect9": [137, 43, 16, 16],
+        "item_collect10": [1, 60, 16, 16],
+        "item_collect11": [18, 60, 16, 16],
+        "item_collect12": [35, 60, 16, 16],
+        
+        "blank": [52, 60, 16, 16],
+
+        "test_bullet": [65, 89, 9, 5],
+        "ion_pellet": [1, 33, 14, 9],
+        "sprite_quill": [16, 33, 6, 3]
+    }
+}

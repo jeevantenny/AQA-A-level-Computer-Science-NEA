@@ -1,0 +1,29 @@
+{
+    "test_bullet": {
+        "hitbox": [30, 30],
+        "texture": "test_bullet",
+        "speed": 1200,
+        "gravity": false,
+        "lifetime": 5,
+        "kill_on_tile_contact": true,
+        "damage": 5,
+        "summon_entity": null,
+        "rotate_sprite": true
+    },
+
+    "ion_pellet": {
+        "hitbox": [40, 40],
+        "texture": "ion_pellet",
+        "speed": 1200,
+        "lifetime": 1.5,
+        "damage": 5
+    },
+
+    "sprite_quill": {
+        "hitbox": [10, 10],
+        "texture": "sprite_quill",
+        "speed": 700,
+        "lifetime": 5.0,
+        "damage": 3
+    }
+}

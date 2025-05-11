@@ -1,0 +1,29 @@
+{
+    "type": "sprite_animation",
+
+    "animations": {
+        "idle": {
+            "duration": 0.8,
+            "loop": true,
+            "timeline": {
+                "0.0": "slime2",
+                "0.4": "slime3"
+            }
+        },
+        "jump_up": {
+            "duration": 0.0,
+            "timeline": {
+                "0.0": "slime1"
+            }
+        },
+        "land_jump": {
+            "duration": 0.15,
+            "anim_speed_multiplier": "0.8",
+            "timeline": {
+                "0.0": "slime2",
+                "0.05": "slime4",
+                "0.10": "slime3"
+            }
+        }
+    }
+}

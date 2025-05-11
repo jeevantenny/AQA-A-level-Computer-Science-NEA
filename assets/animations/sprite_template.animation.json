@@ -1,0 +1,27 @@
+{
+    "type": "sprite_animation",
+    
+    "animations": {
+        "idle": {
+            "duration": 1.0,
+            "loop": true,
+            "timeline": {
+                "0.0": "frame1",
+                "0.25": "frame2",
+                "0.5": "frame3",
+                "0.75": "frame4"
+            }
+        },
+        "walk": {
+            "duration": 4.0,
+            "loop": true,
+            "timeline": {
+                "0.0": "frame1",
+                "0.25": "frame2",
+                "0.5": "frame3",
+                "0.75": "frame4"
+            }
+        }
+    }
+
+}

@@ -1,0 +1,232 @@
+{
+    "spritesheet": "game_objects/tile_data/arenis_tiles.png",
+    "tile_size": 16,
+
+    "tiles": {
+        "a": {
+            "name": "sandstone",
+            "texture": [0, 0]
+        },
+        "b": {
+            "name": "sandstone",
+            "texture": [1, 0]
+        },
+        "c": {
+            "name": "sandstone",
+            "texture": [2, 0]
+        },
+        "d": {
+            "name": "sandstone",
+            "texture": [0, 1]
+        },
+        "e": {
+            "name": "sandstone",
+            "texture": [1, 1]
+        },
+        "f": {
+            "name": "sandstone",
+            "texture": [2, 1]
+        },
+        "g": {
+            "name": "sandstone",
+            "texture": [0, 2]
+        },
+        "h": {
+            "name": "sandstone",
+            "texture": [1, 2]
+        },
+        "i": {
+            "name": "sandstone",
+            "texture": [2, 2]
+        },
+        "j": {
+            "name": "sandstone",
+            "texture": [0, 3]
+        },
+        "k": {
+            "name": "sandstone",
+            "texture": [1, 3]
+        },
+        "l": {
+            "name": "sandstone",
+            "texture": [2, 3]
+        },
+        "m": {
+            "name": "sandstone",
+            "texture": [4, 0],
+            "type": "bottomleft_ramp"
+        },
+        "n": {
+            "name": "sandstone",
+            "texture": [4, 1],
+            "type": "topleft_ramp"
+        },
+        "o": {
+            "name": "sandstone",
+            "texture": [3, 0],
+            "type": "bottomright_ramp"
+        },
+        "p": {
+            "name": "sandstone",
+            "texture": [3, 1],
+            "type": "topright_ramp"
+        },
+        "G": {
+            "name": "sand_spike",
+            "texture": [3, 2],
+            "properties": {
+                "wall_jump": false,
+                "friction": 0.0,
+                "damage_sides": {"bottom": [7, "spike"]}
+            }
+        },
+        "H": {
+            "name": "sand_spike",
+            "texture": [3, 3],
+            "properties": {
+                "wall_jump": false
+            }
+        },
+        "O": {
+            "name": "breakable_sand",
+            "texture": [0, 4],
+            "properties": {
+                "breakable": true
+            }
+        },
+        "q": {
+            "name": "bluestone",
+            "texture": [5, 0]
+        },
+        "r": {
+            "name": "bluestone",
+            "texture": [6, 0]
+        },
+        "s": {
+            "name": "bluestone",
+            "texture": [7, 0]
+        },
+        "t": {
+            "name": "bluestone",
+            "texture": [5, 1]
+        },
+        "u": {
+            "name": "bluestone",
+            "texture": [6, 1]
+        },
+        "v": {
+            "name": "bluestone",
+            "texture": [7, 1]
+        },
+        "w": {
+            "name": "bluestone",
+            "texture": [5, 2]
+        },
+        "x": {
+            "name": "bluestone",
+            "texture": [6, 2]
+        },
+        "y": {
+            "name": "bluestone",
+            "texture": [7, 2]
+        },
+        "z": {
+            "name": "bluestone",
+            "texture": [8, 0],
+            "type": "bottomright_ramp"
+        },
+        "A": {
+            "name": "bluestone",
+            "texture": [9, 0],
+            "type": "bottomleft_ramp"
+        },
+        "B": {
+            "name": "bluestone",
+            "texture": [8, 1],
+            "type": "topright_ramp"
+        },
+        "C": {
+            "name": "bluestone",
+            "texture": [9, 1],
+            "type": "topleft_ramp"
+        },
+        "D": {
+            "name": "bluestone",
+            "texture": [5, 3]
+        },
+        "E": {
+            "name": "bluestone",
+            "texture": [6, 3]
+        },
+        "F": {
+            "name": "bluestone",
+            "texture": [7, 3]
+        },
+        "S": {
+            "name": "cobble_bluestone",
+            "texture": [0, 6]
+        },
+        "T": {
+            "name": "bluestone_bricks",
+            "texture": [0, 5]
+        },
+        "U": {
+            "name": "bluestone_stairs",
+            "texture": [3, 5],
+            "type": "bottomright_ramp"
+        },
+        "V": {
+            "name": "bluestone_stairs",
+            "texture": [4, 5],
+            "type": "bottomleft_ramp"
+        },
+        "W": {
+            "name": "bluestone_stairs",
+            "texture": [3, 6],
+            "type": "topright_ramp"
+        },
+        "X": {
+            "name": "bluestone_stairs",
+            "texture": [4, 6],
+            "type": "topleft_ramp"
+        },
+        "K": {
+            "name": "bluestone_stalagmite",
+            "texture": [8, 2],
+            "properties": {
+                "wall_jump": false,
+                "friction": 0.0,
+                "damage_sides": {"bottom": [7, "spike"]}
+            }
+        },
+        "L": {
+            "name": "bluestone_stalagmite",
+            "texture": [8, 3],
+            "properties": {
+                "wall_jump": false
+            }
+        },
+        "M": {
+            "name": "bluestone_stalactite",
+            "texture": [9, 2],
+            "properties": {
+                "wall_jump": false
+            }
+        },
+        "N": {
+            "name": "bluestone_stalactite",
+            "texture": [9, 3],
+            "properties": {
+                "wall_jump": false,
+                "damage_sides": {"top": [7, "spike"]}
+            }
+        },
+        "P": {
+            "name": "breakable_bluestone",
+            "texture": [5, 4],
+            "properties": {
+                "breakable": true
+            }
+        }
+    }
+}

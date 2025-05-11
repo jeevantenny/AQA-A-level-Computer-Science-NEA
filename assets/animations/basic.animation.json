@@ -1,0 +1,41 @@
+{
+    "type": "sprite_animation",
+
+    "animations": {
+        "still": {
+            "duration": 0.0,
+            "loop": false,
+            "timeline": {
+                "0.0": "frame1"
+            }
+        },
+
+        "collect_item_a": {
+            "duration": 1.1,
+            "anim_speed_multiplier": 1.5,
+            "timeline": {
+                "0.0": "item_collect1",
+                "0.1": "item_collect2",
+                "0.2": "item_collect3",
+                "0.3": "item_collect4",
+                "0.4": "item_collect5",
+                "0.5": "item_collect6",
+                "0.6": "blank",
+                "0.8": "item_collect7",
+                "0.9": "item_collect8",
+                "1.0": "item_collect9"
+            }
+        },
+
+        "collect_item_b": {
+            "duration": 1.0,
+            "anim_speed_multiplier": 1.2,
+            "timeline": {
+                "0.00": "item_collect10",
+                "0.05": "item_collect11",
+                "0.10": "item_collect12",
+                "0.15": "blank"
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "python.REPL.enableREPLSmartSend": false,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "*test.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "cSpell.words": [
+        "arenis",
+        "blit",
+        "camerashake",
+        "colliderect",
+        "doublejump",
+        "gravitoncleaver",
+        "groundpound",
+        "keybind",
+        "keybinds",
+        "plasmacannon",
+        "powertank",
+        "powertanks",
+        "powerups",
+        "rects",
+        "Stalacsprite",
+        "userinput",
+        "walljump",
+        "xenorath"
+    ]
+}

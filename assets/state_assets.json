@@ -1,0 +1,62 @@
+{
+    "texture": {
+        "title": "ui/main_title.png",
+        "starry_background": "ui/starry_background.png"
+    },
+    "texture_map": {
+        "main": "state.texture_map.json",
+        "item_textures": "items.texture_map.json"
+    },
+
+    "json": {
+        "region_map": "data/world/region_map.json",
+        "region_names": "data/world/region_names.json",
+        "save_file_names": "data/save_file_names.json",
+
+        "item_desc": "data/world/item_descriptions.json"
+    },
+
+
+
+
+
+
+    "links": {
+        "TitleScreen": {
+            "title_texture": ["texture", "title"]
+        },
+        "Stars": {
+            "background_texture": ["texture", "starry_background"]
+        },
+
+        "PopUpMenu": {
+            "window_texture": ["texture_map", "main", "pop_up_background"]
+        },
+
+        "MissionSelect": {
+            "save_file_names": ["json", "save_file_names"]
+        },
+        "MissionInfo": {
+            "save_file_names": ["json", "save_file_names"],
+            "region_names": ["json", "region_names"]
+        },
+        "CopyMissionMenu": {
+            "save_file_names": ["json", "save_file_names"]
+        },
+
+        "ItemMenu": {
+            "window_texture": ["texture_map", "main", "item_menu_background"],
+            "item_desc": ["json", "item_desc"]
+        },
+        "ShipNavigationMenu": {
+            "window_texture": ["texture_map", "main", "item_menu_background"]
+        },
+
+        "RegionMap": {
+            "border_texture": ["texture_map", "main", "map_border"],
+            "ship_icon": ["texture_map", "main", "ship_icon"],
+            "player_marker": ["texture_map", "main", "player_marker"],
+            "map_data": ["json", "region_map"]
+        }
+    }
+}

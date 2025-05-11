@@ -1,0 +1,35 @@
+{
+    "name": "player_controller",
+    "starting_state": "idle_left",
+
+    "states": {
+        "idle_left": {
+            "animations": ["idle_left"],
+            "transitions": {
+                "walk_left": "(entity.walk_direction != 0 and entity.velocity.x != 0) or not bool(entity.tile_contacts['bottom'])",
+                "idle_right": "entity.facing == 1"
+            }
+        },
+        "idle_right": {
+            "animations": ["idle_right"],
+            "transitions": {
+                "walk_right": "(entity.walk_direction != 0 and entity.velocity.x != 0) or not bool(entity.tile_contacts['bottom'])",
+                "idle_left": "entity.facing == -1"
+            }
+        },
+        "walk_left": {
+            "animations": ["walk_left"],
+            "transitions": {
+                "idle_left": "(entity.walk_direction == 0 or entity.velocity.x == 0) and bool(entity.tile_contacts['bottom'])",
+                "walk_right": "entity.facing == 1"
+            }
+        },
+        "walk_right": {
+            "animations": ["walk_right"],
+            "transitions": {
+                "idle_right": "(entity.walk_direction == 0 or entity.velocity.x == 0) and bool(entity.tile_contacts['bottom'])",
+                "walk_left": "entity.facing == -1"
+            }
+        }
+    }
+}

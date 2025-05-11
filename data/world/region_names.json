@@ -1,0 +1,14 @@
+{
+    "arenis/surface": "Surface of Arenis",
+    "arenis/large_cave": "Bluestone Caverns [Arenis]",
+    "arenis/doublejump_room": "Bluestone Caverns [Arenis]",
+    "arenis/ionblaster_room": "Bluestone Caverns [Arenis]",
+    "arenis/plasmacannon_room": "Bluestone Caverns [Arenis]",
+    "arenis/groundpound_room": "Bluestone Caverns [Arenis]",
+
+    "xenorath/surface": "Surface of Xenorath",
+    "xenorath/tunnel_connection": "Gravelite Mines [Xenorath]",
+    "xenorath/walljump": "Gravelite Mines [Xenorath]",
+    "xenorath/jagged_cave": "Gravelite Mines [Xenorath]",
+    "xenorath/gravitoncleaver_room": "Mining Depot [Xenorath]"
+}

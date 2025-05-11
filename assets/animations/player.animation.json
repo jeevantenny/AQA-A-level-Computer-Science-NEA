@@ -1,0 +1,60 @@
+{
+    "type": "sprite_animation",
+    
+    "animations": {
+        "walk_left": {
+            "duration": 1.0,
+            "loop": true,
+            "anim_speed_multiplier": "abs(entity.velocity.x)/370",
+            "timeline": {
+                "0.0": "walk_left1",
+                "0.1": "walk_left2",
+                "0.2": "walk_left3",
+                "0.3": "walk_left4",
+                "0.4": "walk_left5",
+                "0.5": "walk_left6",
+                "0.6": "walk_left7",
+                "0.7": "walk_left8",
+                "0.8": "walk_left9",
+                "0.9": "walk_left10"
+            }
+        },
+        "walk_right": {
+            "duration": 1.0,
+            "loop": true,
+            "anim_speed_multiplier": "abs(entity.velocity.x)/370",
+            "timeline": {
+                "0.0": "walk_right1",
+                "0.1": "walk_right2",
+                "0.2": "walk_right3",
+                "0.3": "walk_right4",
+                "0.4": "walk_right5",
+                "0.5": "walk_right6",
+                "0.6": "walk_right7",
+                "0.7": "walk_right8",
+                "0.8": "walk_right9",
+                "0.9": "walk_right10"
+            }
+        },
+        "idle_left": {
+            "duration": 1.2,
+            "loop": true,
+            "timeline": {
+                "0.0": "idle_left1",
+                "0.3": "idle_left2",
+                "0.6": "idle_left3",
+                "0.9": "idle_left2"
+            }
+        },
+        "idle_right": {
+            "duration": 1.2,
+            "loop": true,
+            "timeline": {
+                "0.0": "idle_right1",
+                "0.3": "idle_right2",
+                "0.6": "idle_right3",
+                "0.9": "idle_right2"
+            }
+        }
+    }
+}

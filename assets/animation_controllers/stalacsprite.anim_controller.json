@@ -1,0 +1,10 @@
+{
+    "name": "stalacsprite_controller",
+    "starting_state": "idle",
+
+    "states": {
+        "idle": {
+            "animations": ["idle"]
+        }
+    }
+}

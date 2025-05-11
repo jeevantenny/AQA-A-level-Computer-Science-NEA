@@ -1,0 +1,24 @@
+{
+    "name": "collectable_controller",
+    "starting_state": "still",
+
+    "states": {
+        "still": {
+            "animations": ["still"],
+            "transitions": {
+                "collected_a": "entity.collected"
+            }
+        },
+
+        "collected_a": {
+            "animations": ["still", "collect_item_a"],
+            "transitions": {
+                "collected_b": "self.animations_complete"
+            }
+        },
+
+        "collected_b": {
+            "animations": ["collect_item_b"]
+        }
+    }
+}

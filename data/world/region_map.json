@@ -1,0 +1,10 @@
+{
+    "arenis": {
+        "map_title": "Arenis",
+        "texture": "ui/region_map/arenis/full_map.png"
+    },
+    "xenorath": {
+        "map_title": "Xenorath",
+        "texture": "ui/region_map/xenorath/full_map.png"
+    }
+}

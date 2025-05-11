@@ -1,0 +1,12 @@
+{
+    "spritesheet": "ui/state_elements.png",
+
+    "mappings": {
+        "pop_up_background": [1, 1, 15, 15],
+        "item_menu_background": [33, 1, 15, 15],
+
+        "map_border": [49, 1, 24, 24],
+        "ship_icon": [1, 17, 35, 8],
+        "player_marker": [74, 1, 9, 9]
+    }
+}

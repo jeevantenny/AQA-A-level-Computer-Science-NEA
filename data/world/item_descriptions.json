@@ -1,0 +1,41 @@
+{
+    "PowerTank": {
+        "name": "Power Tank",
+        "desc": "Power tanks provide additional range for your spaceship. Collecting enough power tanks will allow you to explore new planets."
+    },
+
+    "DoubleJump": {
+        "name": "Double Jump",
+        "desc": "Allows for jumping in mid air. Press jump while not touching the ground."
+    },
+
+    "WallJump": {
+        "name": "Wall Jump",
+        "desc": "Allows you to jump off wall to gain more height. While holding jump, move away from wall to jump off. Move towards wall to slide down."
+    },
+
+    "GroundPound": {
+        "name": "Ground Pound",
+        "desc": "Allows you to Dash towards the ground. You can also sometimes break the ground beneath you."
+    },
+
+    "IonBlaster": {
+        "name": "Ion Blaster",
+        "desc": "Shoots ion pellets. Change weapon mode to use a ranged weapon."
+    },
+
+    "PlasmaCannon": {
+        "name": "Plasma Cannon",
+        "desc": "Fires a powerful beam of plasma. Hold attack to charge the weapon."
+    },
+
+    "GravitonCleaver": {
+        "name": "Graviton Cleaver",
+        "desc": "A Powerful Axe with the capability to manipilate gravity and distroy terrain. Use when landing a fall with great speed to deliver a powerful shockwave."
+    },
+
+    "Eclipser": {
+        "name": "Eclipser",
+        "desc": "A one of a kind sword forged with light itself."
+    }
+}

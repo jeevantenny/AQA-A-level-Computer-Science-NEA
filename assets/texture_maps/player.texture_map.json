@@ -1,0 +1,38 @@
+{
+    "spritesheet": "game_objects/entities/samus.png",
+    "max_size": [35, 43],
+
+    "mappings": {
+        "walk_right1": [9, 293, 23, 42],
+        "walk_right2": [47, 292, 29, 43],
+        "walk_right3": [88, 292, 35, 43],
+        "walk_right4": [131, 293, 32, 42],
+        "walk_right5": [181, 292, 18, 43],
+        "walk_right6": [219, 293, 22, 42],
+        "walk_right7": [255, 292, 29, 43],
+        "walk_right8": [297, 292, 35, 43],
+        "walk_right9": [347, 293, 32, 42],
+        "walk_right10": [396, 293, 18, 42],
+
+        "walk_left1": [598, 236, 29, 43],
+        "walk_left2": [638, 236, 34, 43],
+        "walk_left3": [687, 237, 32, 42],
+        "walk_left4": [738, 237, 19, 42],
+        "walk_left5": [768, 237, 22, 42],
+        "walk_left6": [798, 236, 29, 43],
+        "walk_left7": [841, 236, 35, 43],
+        "walk_left8": [889, 237, 32, 42],
+        "walk_left9": [933, 237, 18, 42],
+        "walk_left10": [963, 237, 23, 42],
+
+        "idle_right1": [45, 12, 26, 43],
+        "idle_right2": [80, 12, 26, 43],
+        "idle_right3": [112, 12, 26, 43],
+        "idle_right4": [144, 12, 26, 43],
+
+        "idle_left1": [260, 68, 26, 43],
+        "idle_left2": [231, 68, 26, 43],
+        "idle_left3": [203, 68, 26, 43],
+        "idle_left4": [169, 68, 26, 43]
+    }
+}

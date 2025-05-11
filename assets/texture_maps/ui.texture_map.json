@@ -1,0 +1,49 @@
+{
+    "spritesheet": "ui/ui_elements.png",
+
+    "mappings": {
+        "topleft_bracket": [89, 13, 3, 3],
+        "topright_bracket": [93, 13, 3, 3],
+        "bottomleft_bracket": [89, 17, 3, 3],
+        "bottomright_bracket": [93, 17, 3, 3],
+
+        "button1_unclicked": [1, 1, 60, 13],
+        "button1_clicked": [1, 15, 60, 13],
+        "button2_unclicked": [129, 1, 24, 13],
+        "button2_clicked": [129, 15, 24, 13],
+
+        "key_binder_unclicked": [62, 22, 16, 15],
+        "key_binder_clicked": [154, 1, 16, 15],
+
+        "mission_log": [1, 56, 135, 35],
+        "light_1": [1, 86, 6, 3],
+        "light_2": [8, 86, 6, 3],
+
+        "loaded_bar": [81, 1, 18, 9],
+        "unloaded_bar": [62, 1, 18, 9],
+        "cursor_1": [75, 11, 11, 11],
+        "cursor_2": [62, 11, 12, 11],
+        
+        "healthbar_base": [1, 29, 59, 9],
+        "healthbar_bar": [11, 39, 50, 5],
+        "healthbar_icon": [2, 39, 8, 7],
+
+        "tank_icon": [62, 42, 14, 9],
+
+        "ship_tank_indicator_base": [137, 29, 28, 62],
+        "ship_tank_indicator_icon": [154, 18, 10, 5],
+
+        "melee_on": [1, 98, 23, 19],
+        "melee_off": [25, 98, 23, 19],
+
+        "ranged_on": [1, 118, 23, 19],
+        "ranged_off": [25, 118, 23, 19],
+
+        "weapon_selection_square": [79, 22, 26, 28],
+        "weapon_selection_column": [106, 1, 22, 46],
+
+        "planet_info_base": [49, 92, 120, 42],
+        "arenis_icon": [171, 1, 32, 32],
+        "xenorath_icon": [171, 34, 32, 32]
+    }
+}

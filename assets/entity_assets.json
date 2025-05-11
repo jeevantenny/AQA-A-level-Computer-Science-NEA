@@ -1,0 +1,74 @@
+{
+    "texture_map": {
+        "player": "player.texture_map.json",
+        "checkpoint": "checkpoint.texture_map.json",
+        "items": "items.texture_map.json",
+        "arenis": "arenis.texture_map.json",
+
+        "test": "test.texture_map.json"
+    },
+
+    "animation": {
+        "basic": "basic.animation.json",
+
+        "player": "player.animation.json",
+        "slime": "slime.animation.json",
+        "stalacsprite": "stalacsprite.animation.json"
+    },
+
+    "anim_controller": {
+        "player": "player.anim_controller.json",
+        "slime": "slime.anim_controller.json",
+        "collectable": "collectable.anim_controller.json"
+    },
+    "json": {
+        "ship_landing_sites": "data/world/ship_landing_sites.json"
+    },
+
+
+    "links": {
+        "Player": {
+            "texture_map": ["texture_map", "player"],
+            "animation_data": ["animation", "player"],
+            "anim_controller_data": ["anim_controller", "player"]
+        },
+        "TestEnemy": {
+            "texture_map": ["texture_map", "player"],
+            "animation_data": ["animation", "player"],
+            "anim_controller_data": ["anim_controller", "player"]
+        },
+        "Slime": {
+            "texture_map": ["texture_map", "arenis"],
+            "animation_data": ["animation", "slime"],
+            "anim_controller_data": ["anim_controller", "slime"]
+        },
+        "Stalacsprite": {
+            "texture_map": ["texture_map", "arenis"],
+            "animation_data": ["animation", "stalacsprite"]
+        },
+
+
+
+
+        "CheckPoint": {
+            "uninteracted_texture": ["texture_map", "checkpoint", "uninteracted"],
+            "interacted_texture": ["texture_map", "checkpoint", "interacted"]
+        },
+
+        "Collectable": {
+            "texture_map": ["texture_map", "items"],
+            "animation_data": ["animation", "basic"],
+            "anim_controller_data": ["anim_controller", "collectable"]
+        },
+        "Projectile": {
+            "texture_map": ["texture_map", "items"]
+        },
+
+        "ShipEntity": {
+            "texture_map": ["texture_map", "test"],
+            "animation_data": ["animation", "basic"],
+
+            "landing_sites": ["json", "ship_landing_sites"]
+        }
+    }
+}

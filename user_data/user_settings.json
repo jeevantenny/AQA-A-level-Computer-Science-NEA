@@ -1,0 +1,1 @@
+{"key_binds": {"left": 97, "right": 100, "jump": 32, "crouch": 115, "attack": 1073742053, "interact": 101, "swap_weapon": 13, "select_weapon": 35, "toggle_map": 9}, "audio": {"music_volume": 1.0, "gameplay_volume": 1.0}, "video": {"fps": 60, "camerashake": true, "draw_particles": true}}

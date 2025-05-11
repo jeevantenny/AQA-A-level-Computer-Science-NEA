@@ -1,0 +1,25 @@
+{
+    "type": "model_animation",
+    
+    "animations": {
+        "idle": {
+            "duration": 1.0,
+            "loop": true,
+            "bones": {
+                "leg1": {
+                    "rotation": {
+                        "0.0": 0,
+                        "0.5": 78,
+                        "1.0": 90
+                    },
+                    "position": {
+                        "0.0": [0, 0],
+                        "0.5": [2, 2],
+                        "1.0": [4, 0]
+                    }
+                }
+            }
+        }
+    }
+
+}

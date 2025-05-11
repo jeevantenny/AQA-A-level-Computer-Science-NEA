@@ -1,0 +1,19 @@
+{
+    "name": "controller_template",
+    "starting_state": "idle",
+
+    "states": {
+        "idle": {
+            "animation": "idle",
+            "transitions": {
+                "walk": "abs(entity.velocity.x) > 10"
+            }
+        },
+        "walk": {
+            "animation": "walk",
+            "transitions": {
+                "idle": "abs(entity.velocity.x) > 10000000"
+            }
+        }
+    }
+}
